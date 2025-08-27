@@ -1,9 +1,9 @@
 package org.mysite.sbb;
 
 import org.junit.jupiter.api.Test;
-import org.mysite.sbb.entity.Answer;
-import org.mysite.sbb.entity.Question;
-import org.mysite.sbb.repository.QuestionRepository;
+import org.mysite.sbb.answer.Answer;
+import org.mysite.sbb.question.Question;
+import org.mysite.sbb.question.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
